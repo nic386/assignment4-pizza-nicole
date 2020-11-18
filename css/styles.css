@@ -1,22 +1,119 @@
-
-nav ul li {
-  display: inline;
-  position: relative;
-  top: 10px;
-  left: 100px;
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
 }
 
-nav a {
-  text-decoration: none;
-  color: #000;
-  background: #f19bc1;
-  padding: 10px 20px;
-  transition: .5s;
-  width: 100px;
+/*=======================
+  Universtal Styling
+=========================*/
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: Script;
+  padding: 30px 15px;
+
+}
+
+h1 {
+    font-size: 38px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #ff107d;
+    background-color: black;
+    font-style: italic;
+}
+
+p,
+ul {
+  font-family: helvetica;
+}
+
+p {
+    padding: 0px 30px;
+    line-height: 26px;
+    margin:0;
+}
+
+blockquote {
+  float: right;
+  width: 275px;
+  font-size: 130:;
+  font-style: italic;
+  font-family: Georgia'
+  margin: 0px 0px 10 px 10xp;
+  padding: 10px:inherit;
+  border-top: 1px solid #ff107d;
+  border-bottom: 1px solid #ff107d;
+}
+
+/*=====================
+  Header
+=========================*/
+
+header {
+    background: white;
+    padding: 20px;
+    heigh: 100px;
+    position: relative;
+    top: 0px;
+    width: 100%;
+}
+
+header nav {
+  font-family: Helvetica;
+  padding: 45px 0px 0px 0px;
+
+}
+
+header nav ul li {
+    display: inline;
+    padding: 0 15px;
+}
+
+header nav a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    padding: 10px 10px;
+    text-transform: uppercase;
+    transition: .5s;
+    width: 100px;
+
 }
 
 nav a:hover {
-  background: #000;
-  color: #fff;
+  background: black;
+  color: #ff107d;
   transition: .5s;
+}
+
+.logo-container,
+header nav {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+/*=====================
+  Animation
+=========================*/
+
+.dclogo {
+  position: absolute;
+  top: 400px;
+  left: 0px;
+  animation: drive 15s forwards infinite linear;
+}
+
+@keyframes drive {
+  from {
+    transform: translateX(-200px);
+  }
+  to {
+    transform: translateX(1000px);
+  }
 }
