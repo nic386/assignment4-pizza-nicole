@@ -44,4 +44,4 @@ Use the following in CSS to to align logo to the left of navigation and remove t
 
 (**Thank you Professor _Efren_!**)
 
-I, Nicole Pizza, have read the point deduction list and understand that I will lose points for missing items.
+I, Nicole Pizza, have read the point deduction list and understand that I will lose points for missing items!
