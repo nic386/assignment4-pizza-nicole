@@ -100,7 +100,7 @@ header nav {
   background: white;
   width: 100%;
   font-family: Helvetica;
-  padding: 45px 0px 0px 0px;
+  padding: 25px 0px;
   position: fixed;
 }
 
@@ -110,6 +110,7 @@ header nav ul li {
 }
 
 header nav a {
+  display: inline;
     text-decoration: none;
     color: black;
     font-weight: bold;
@@ -125,10 +126,14 @@ nav a:hover {
   transition: .5s;
 }
 
-.logo-container,
-header nav {
+.logo-container {
     display: inline-block;
-    vertical-align: middle;
+    float: left;
+}
+
+.logo-container a:hover {
+
+    background: none;
 }
 
 
